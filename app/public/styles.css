@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: auto;
+    width:auto;
+}
+
+.middle {
+    text-align: center;
+}
+
+.auqa {
+    color: aqua;
+}
+
+.USC-Images-Videos {
+    height: auto;
+    width: 50%;
+}
+
+.USC-h2 {
+    color: blueviolet;
+    text-align: center;
+}
+
+.USC-h1 {
+    color: blue;
+    text-align: center;
+}
