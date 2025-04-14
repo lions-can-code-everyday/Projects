@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    background-color: black;
+    height: auto;
+    width: 100%;
+    font-size: auto;
+}
+
+.title {
+    color: aqua;
+}
+
+.ingredients {
+    color: blueviolet;
+}
+
+.equipment {
+    color: brown;
+}
+
+.directions {
+    color: crimson;
+}

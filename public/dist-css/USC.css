@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    font-size: auto;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+img {
+    heigh: auto;
+    width: 50%;
+}
+
+h2 {
+    color: blueviolet;
+    text-align: center;
+}

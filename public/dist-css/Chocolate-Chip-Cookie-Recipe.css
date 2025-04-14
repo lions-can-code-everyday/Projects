@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    height: auto;
+    width: 100%;
+    font-size: auto;
+    text-align: center;
+}
+
+h1 {
+    color: red;
+    height: auto;
+    width: 100%;
+    font-size: auto;
+
+}
+h2 {
+    color: lime;
+    height: auto;
+    width: 100%;
+    font-size: auto;
+}
+div {
+    color: white;
+    height: auto;
+    width: 100%;
+    font-size: auto;
+}
+.credit {
+    color: aqua;
+    text-align: right;
+    height: auto;
+    width: 100%;
+    font-size: auto;
+}
+
+.center {
+    text-align: center;
+    height: auto;
+    width: 100%;
+    font-size: auto;
+}

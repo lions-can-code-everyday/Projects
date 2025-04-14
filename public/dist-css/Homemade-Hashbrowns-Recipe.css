@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    height: auto;
+    width: 100%;
+    font-size: auto;
+}
+
+.Title {
+    color: aqua;
+    text-align: center;
+}
+
+.Respie {
+    color: white;
+    text-align: center;
+}
+
+.middle {
+    text-align: center;
+}

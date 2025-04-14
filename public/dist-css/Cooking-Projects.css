@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: auto;
+    width: 100%;
+    font-size: auto;
+}
+
+.middle {
+    text-align: center;
+}
