@@ -1,22 +1,15 @@
 # The Docker image that will be used to build your app
 image: node:latest
 
-create-pages:
-  stage: deploy
+build-project:
+  stage: build
   script:
     # Install dependencies and build the project
     - npm install
     - npm run build
-    # Move the build output to the public folder
-    - mkdir -p public
-    - cp -r dist/* public/
   artifacts:
     paths:
-      - public
-  pages:
-    # The folder that contains the files to be exposed at the Page URL
-    publish: public
+      - dist/
   rules:
-    # This ensures that only pushes to the default branch will trigger
-    # a pages deploy
+    # This ensures that the job runs only on the default branch
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
