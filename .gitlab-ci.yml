@@ -9,7 +9,7 @@ build-project:
     - npm run build
   artifacts:
     paths:
-      - dist/
+      - .
   rules:
     # This ensures that the job runs only on the default branch
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
