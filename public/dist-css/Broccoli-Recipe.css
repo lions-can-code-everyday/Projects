@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    size: 50vh;
+    height: auto;
+    width: 100%;
+    font-size: auto;
+}
+
+h1 {
+    color: red;
+}

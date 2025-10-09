@@ -1,0 +1,15 @@
+# The Docker image that will be used to build your app
+image: node:latest
+
+build-project:
+  stage: build
+  script:
+    # Install dependencies and build the project
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+      - .
+  rules:
+    # This ensures that the job runs only on the default branch
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
